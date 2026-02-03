@@ -4,7 +4,7 @@ This repository contains a complete implementation of **balancing an imbalanced 
 
 ---
 
-## 📌 Problem Statement
+##  Problem Statement
 
 You are given a highly imbalanced credit card dataset. In real-world applications, such imbalance can significantly affect model performance. The task is to:
 
@@ -15,7 +15,7 @@ You are given a highly imbalanced credit card dataset. In real-world application
 
 ---
 
-## 📂 Dataset
+##  Dataset
 
 **Source:**  
 https://github.com/AnjulaMehto/Sampling_Assignment/blob/main/Creditcard_data.csv
@@ -36,7 +36,7 @@ This shows the dataset is **extremely imbalanced (~85:1 ratio)**, making it unsu
 ---
 
 
-## 🧠 Methodology
+##  Methodology
 
 ### Step 1: Data Preprocessing
 - Removed target column (`Class`) from features
@@ -60,7 +60,7 @@ The following sampling techniques were applied **after balancing the dataset**:
 
 ---
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 
 | Model Code | Model Name |
 |----------------|------------------|
@@ -72,7 +72,7 @@ The following sampling techniques were applied **after balancing the dataset**:
 
 ---
 
-## 📊 Results
+##  Results
 
 The table below shows the **accuracy (%) of each model for each sampling technique**:
 
@@ -82,7 +82,7 @@ The table below shows the **accuracy (%) of each model for each sampling techniq
 ---
 
 
-## 🧪 How to Run the Project
+##  How to Run the Project
 
 1. Clone the repository
    ```bash
@@ -102,7 +102,7 @@ The table below shows the **accuracy (%) of each model for each sampling techniq
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 Sampling_Assignment/
@@ -114,7 +114,7 @@ Sampling_Assignment/
 
 ---
 
-## 🧠 Discussion
+##  Discussion
 
 - **SMOTE balancing** significantly improves model learning by preventing bias toward non-fraud transactions.
 - **Stratified sampling** ensures fair class representation in each training sample.
@@ -123,13 +123,13 @@ Sampling_Assignment/
 
 ---
 
-## 🏁 Conclusion
+##  Conclusion
 
 This project demonstrates that **dataset balancing is critical before applying sampling techniques** on highly imbalanced datasets. The choice of sampling method significantly affects the performance of different machine learning models, and no single sampling strategy is universally optimal for all models.
 
 ---
 
-## 📌 Author
+##  Author
 
 **Name:** Shubhkarman Singh  
 **Course Instructor:** Dr. Anjula Mehto  

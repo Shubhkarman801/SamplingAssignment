@@ -35,15 +35,6 @@ This shows the dataset is **extremely imbalanced (~85:1 ratio)**, making it unsu
 
 ---
 
-## ⚙️ Environment Setup
-
-Install required libraries:
-
-```bash
-pip install pandas numpy scikit-learn imbalanced-learn matplotlib
-```
-
----
 
 ## 🧠 Methodology
 
@@ -85,23 +76,11 @@ The following sampling techniques were applied **after balancing the dataset**:
 
 The table below shows the **accuracy (%) of each model for each sampling technique**:
 
-> 📌 After running the code, place the generated image file `results.png` in this repository and it will automatically appear here.
 
 ![Results Table](results.png)
 
 ---
 
-## 🏆 Best Sampling Technique Per Model
-
-| Model | Best Sampling Method | Reason |
-|-----------|----------------------------|-------------|
-| M1 | Sampling5 (Bootstrap) | Performs well with repeated samples for stable learning |
-| M2 | Sampling3 (Stratified) | Balanced class representation improves tree splits |
-| M3 | Sampling1 (Simple Random) | Works well with ensemble learning and reduced noise |
-| M4 | Sampling1 (Simple Random) | Avoids bias introduced by artificial clustering |
-| M5 | Sampling1 (Simple Random) | Distance-based model benefits from clean, uniform data |
-
----
 
 ## 🧪 How to Run the Project
 
@@ -128,7 +107,7 @@ The table below shows the **accuracy (%) of each model for each sampling techniq
 ```
 Sampling_Assignment/
 │
-├── main.py
+├── AssignmentCode.ipynb
 ├── README.md
 └── results.png
 ```
@@ -152,17 +131,10 @@ This project demonstrates that **dataset balancing is critical before applying s
 
 ## 📌 Author
 
-**Name:** Your Name Here  
+**Name:** Shubhkarman Singh  
 **Course Instructor:** Dr. Anjula Mehto  
 **Institute:** Thapar Institute of Engineering and Technology, Patiala, Punjab
 
 ---
 
-## ✅ Submission
-
-Upload this repository to GitHub and submit the repository link using the provided submission portal.
-
----
-
-If you want, I can also **customize this README with your name, roll number, and screenshots for a professional final submission** 🏆
 
